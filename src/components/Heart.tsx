@@ -15,5 +15,5 @@ export default function Heart({ color, rotation }: HeartProps) {
 
   return <div className={styles.div}>
     <div className={styles.heart} style={heartStyle} />
-    </div>;
+  </div>;
 };
