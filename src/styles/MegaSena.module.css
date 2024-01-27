@@ -1,0 +1,63 @@
+.body {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.header {
+  font-size: 3.5em;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 2px 2px 4px #000000;
+  padding: 0px 20px;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
+.alignBalls {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.inputMegaSena {
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  padding: 0 20px;
+  margin-top: 30px;
+  font-size: 18px;
+  background-color: #fff;
+  box-shadow: 0px 10px 10px rgba(0, 0, 0, 0.1);
+}
+
+.inputMegaSena::placeholder {
+  color: #bbb;
+}
+
+.buttonMegaSena {
+  margin-top: 20px;
+  width: 300px;
+  height: 50px;
+  border: none;
+  border-radius: 25px;
+  font-size: 18px;
+  color: #fff;
+  background-color: #008000;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.buttonMegaSena:hover {
+  background-color: #003b02;
+}
