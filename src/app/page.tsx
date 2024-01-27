@@ -32,7 +32,7 @@ export default function MegaSena() {
   return (
     <div className={styles.body}>
       <LogoMegaSena />
-      <h1 className={styles.header}>Gerador de numeros <br /> MEGA-SENA </h1>
+      <h1 className={styles.header}>Gerador de numeros<br/> MEGA-SENA </h1>
       <div className={styles.alignBalls}>
         {arrayAleatorio.map((numero, index) => (
           <BolinhaSpan key={index} value={numero.toString()} />
